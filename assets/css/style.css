@@ -1,0 +1,57 @@
+body {
+  background-color: #ececec;
+}
+
+.product {
+  border: 1px solid;
+  margin-top: 15px;
+}
+
+.product_image span {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.product_image img {
+  width: 100%;
+  height: 200px;
+}
+
+.product_service {
+  position: absolute;
+  bottom: 15px;
+  left: 30%;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: #ccc;
+  padding: 5px 0px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
+
+.favorite-icon {
+  display: none;
+}
